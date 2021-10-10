@@ -58,11 +58,17 @@ function empezarJuego(){
 function mostrarTarjeta(evento){
     let tarjeta = evento.target;
     tarjeta.src = panel[tarjeta.id];
+
+    const tarjetaAnterior = document.querySelector('.volteada');
+    if (tarjeta === tarjetaAnterior){
+        return;
+    }
     
     if(otraTarjetaVolteada){
 
-        const tarjetaAnterior = document.querySelector('.volteada');
-        console.log(tarjetaAnterior)
+    
+    if(otraTarjetaVolteada){
+
         if (panel[tarjetaAnterior.id] !== panel[tarjeta.id]){
             setTimeout(function(){
                 tarjeta.src = reversoTarjeta;
