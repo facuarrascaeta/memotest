@@ -1,0 +1,22 @@
+{
+  "name": "memotest",
+  "version": "1.0.0",
+  "description": "Juego de la memoria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facuarrascaeta/memotest.git"
+  },
+  "author": "Arrascaeta Facundo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/facuarrascaeta/memotest/issues"
+  },
+  "homepage": "https://github.com/facuarrascaeta/memotest#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
