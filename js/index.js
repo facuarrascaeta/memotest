@@ -66,6 +66,9 @@ function mostrarTarjeta(evento){
     
     if(otraTarjetaVolteada){
 
+    
+    if(otraTarjetaVolteada){
+
         if (panel[tarjetaAnterior.id] !== panel[tarjeta.id]){
             setTimeout(function(){
                 tarjeta.src = reversoTarjeta;
